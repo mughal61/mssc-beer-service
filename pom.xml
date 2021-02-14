@@ -21,6 +21,7 @@
 		<mapstruct.version>1.4.2.Final</mapstruct.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<org.lombok-mapstruct-binding.version>0.2.0</org.lombok-mapstruct-binding.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -102,6 +103,12 @@
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
 							<version>${lombok.version}</version>
+						</path>
+						<!-- This is needed when using Lombok 1.8.16 and above -->
+						<path>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok-mapstruct-binding</artifactId>
+							<version>${org.lombok-mapstruct-binding.version}</version>
 						</path>
 					</annotationProcessorPaths>
 					<compilerArgs>
