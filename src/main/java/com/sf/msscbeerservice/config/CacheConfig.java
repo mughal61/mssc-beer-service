@@ -1,4 +1,4 @@
-package com.sf.msscbeerservice;
+package com.sf.msscbeerservice.config;
 
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Configuration;
