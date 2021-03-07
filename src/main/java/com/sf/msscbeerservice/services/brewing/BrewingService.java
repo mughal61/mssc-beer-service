@@ -1,4 +1,4 @@
-package com.sf.msscbeerservice.services;
+package com.sf.msscbeerservice.services.brewing;
 
 
 import com.sf.msscbeerservice.domain.Beer;
