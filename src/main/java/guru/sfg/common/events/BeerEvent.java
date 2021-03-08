@@ -1,4 +1,4 @@
-package com.sf.msscbeerservice.events;
+package guru.sfg.common.events;
 
 
 import com.sf.msscbeerservice.web.model.BeerDto;

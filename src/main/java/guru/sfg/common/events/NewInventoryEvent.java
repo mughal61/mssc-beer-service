@@ -1,12 +1,11 @@
-package com.sf.msscbeerservice.events;
+package guru.sfg.common.events;
 
 import com.sf.msscbeerservice.web.model.BeerDto;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
-public class BrewBeerEvent extends BeerEvent{
-
-    public BrewBeerEvent(BeerDto beerDto) {
+public class NewInventoryEvent extends BeerEvent{
+    public NewInventoryEvent(BeerDto beerDto) {
         super(beerDto);
     }
 }
